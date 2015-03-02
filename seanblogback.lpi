@@ -29,16 +29,19 @@
         <FormatVersion Value="1"/>
       </local>
     </RunParams>
-    <RequiredPackages Count="3">
+    <RequiredPackages Count="4">
       <Item1>
-        <PackageName Value="BrookRT"/>
+        <PackageName Value="LCL"/>
       </Item1>
       <Item2>
-        <PackageName Value="WebLaz"/>
+        <PackageName Value="BrookRT"/>
       </Item2>
       <Item3>
-        <PackageName Value="FCL"/>
+        <PackageName Value="WebLaz"/>
       </Item3>
+      <Item4>
+        <PackageName Value="FCL"/>
+      </Item4>
     </RequiredPackages>
     <Units Count="3">
       <Unit0>
@@ -49,9 +52,6 @@
       <Unit1>
         <Filename Value="seanblogactions.pas"/>
         <IsPartOfProject Value="True"/>
-        <ComponentName Value="FPWebModule1"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="DataModule"/>
         <UnitName Value="seanblogactions"/>
       </Unit1>
       <Unit2>

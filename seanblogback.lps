@@ -18,36 +18,33 @@
       <Unit1>
         <Filename Value="seanblogactions.pas"/>
         <IsPartOfProject Value="True"/>
-        <ComponentName Value="FPWebModule1"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="DataModule"/>
         <UnitName Value="seanblogactions"/>
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="0"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="2"/>
+        <TopLine Value="1"/>
         <CursorPos X="28" Y="3"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit1>
       <Unit2>
-        <Filename Value="seanblogactions.lfm"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="5" Y="5"/>
-        <UsageCount Value="10"/>
-        <DefaultSyntaxHighlighter Value="LFM"/>
-      </Unit2>
-      <Unit3>
         <Filename Value="brokers.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="Brokers"/>
         <EditorIndex Value="1"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
-        <CursorPos X="55" Y="13"/>
+        <CursorPos X="22" Y="9"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="seanblogactions.lfm"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit3>
     </Units>
     <General>
