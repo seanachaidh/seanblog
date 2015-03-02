@@ -43,22 +43,27 @@
         <PackageName Value="FCL"/>
       </Item4>
     </RequiredPackages>
-    <Units Count="3">
+    <Units Count="4">
       <Unit0>
         <Filename Value="seanblogback.lpr"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="seanblogback"/>
       </Unit0>
       <Unit1>
-        <Filename Value="seanblogactions.pas"/>
+        <Filename Value="seanblogposts.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="seanblogactions"/>
+        <UnitName Value="seanblogposts"/>
       </Unit1>
       <Unit2>
         <Filename Value="brokers.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="Brokers"/>
       </Unit2>
+      <Unit3>
+        <Filename Value="seanblogcomments.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="seanblogcomments"/>
+      </Unit3>
     </Units>
   </ProjectOptions>
   <CompilerOptions>

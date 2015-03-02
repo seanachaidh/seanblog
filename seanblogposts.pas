@@ -65,7 +65,7 @@ end;
 
 procedure TSeanblogPostAction.Post;
 begin
-  inherited Post;
+  write('nog niet gemaakt');
 end;
 
 initialization

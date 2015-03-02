@@ -16,6 +16,7 @@ type
   SeanblogCommentAction = class(TBrookAction)
     public
       procedure Get; override;
+      procedure Post; override;
   end;
 
 implementation
@@ -26,7 +27,13 @@ procedure SeanblogCommentAction.Get;
 begin
   write('seanblog comments');
 end;
+
+procedure SeanblogCommentAction.Post;
+begin
+  write('nog niet gemaakt');
+end;
+
 initialization
-SeanblogCommentAction.Register('*');
+SeanblogCommentAction.Register('/comments');
 end.
 
