@@ -3,17 +3,16 @@
   <ProjectSession>
     <Version Value="9"/>
     <BuildModes Active="Default"/>
-    <Units Count="6">
+    <Units Count="8">
       <Unit0>
         <Filename Value="seanblogback.lpr"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="seanblogback"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="3"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
-        <CursorPos X="58" Y="11"/>
-        <UsageCount Value="41"/>
+        <CursorPos X="13" Y="8"/>
+        <UsageCount Value="44"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
@@ -22,9 +21,9 @@
         <UnitName Value="seanblogposts"/>
         <EditorIndex Value="0"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="42"/>
-        <CursorPos X="29" Y="68"/>
-        <UsageCount Value="41"/>
+        <TopLine Value="10"/>
+        <CursorPos X="29" Y="10"/>
+        <UsageCount Value="44"/>
         <Loaded Value="True"/>
       </Unit1>
       <Unit2>
@@ -35,18 +34,10 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="22" Y="9"/>
-        <UsageCount Value="41"/>
+        <UsageCount Value="44"/>
         <Loaded Value="True"/>
       </Unit2>
       <Unit3>
-        <Filename Value="seanblogactions.lfm"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="1" Y="1"/>
-        <UsageCount Value="8"/>
-        <DefaultSyntaxHighlighter Value="LFM"/>
-      </Unit3>
-      <Unit4>
         <Filename Value="seanblogcomments.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="seanblogcomments"/>
@@ -54,8 +45,16 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="26" Y="19"/>
-        <UsageCount Value="40"/>
+        <UsageCount Value="43"/>
         <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="seanblogactions.lfm"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="8"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit4>
       <Unit5>
         <Filename Value="/usr/lib/fpc/src/packages/fcl-db/src/base/db.pas"/>
@@ -65,11 +64,32 @@
         <CursorPos X="1" Y="1"/>
         <UsageCount Value="8"/>
       </Unit5>
+      <Unit6>
+        <Filename Value="seanblogdb.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="seanblogdb"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="4"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="37"/>
+        <CursorPos X="33" Y="45"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="/usr/lib/fpc/src/packages/fcl-db/src/sqldb/mysql/mysqlconn.inc"/>
+        <EditorIndex Value="5"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="165"/>
+        <CursorPos X="5" Y="173"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit7>
     </Units>
     <General>
       <ActiveWindowIndexAtStart Value="0"/>
     </General>
-    <JumpHistory Count="7" HistoryIndex="6">
+    <JumpHistory Count="9" HistoryIndex="8">
       <Position1>
         <Filename Value="seanblogposts.pas"/>
         <Caret Line="13" Column="4" TopLine="2"/>
@@ -98,6 +118,14 @@
         <Filename Value="seanblogcomments.pas"/>
         <Caret Line="19" Column="32" TopLine="1"/>
       </Position7>
+      <Position8>
+        <Filename Value="seanblogdb.pas"/>
+        <Caret Line="19" Column="14" TopLine="7"/>
+      </Position8>
+      <Position9>
+        <Filename Value="seanblogdb.pas"/>
+        <Caret Line="17" Column="33" TopLine="5"/>
+      </Position9>
     </JumpHistory>
   </ProjectSession>
   <EditorMacros Count="0"/>

@@ -3,7 +3,7 @@ program seanblogback;
 {$mode objfpc}{$H+}
 
 uses
-  BrookApplication, seanblogposts, Brokers, seanblogcomments;
+  BrookApplication, seanblogposts, Brokers, seanblogcomments, seanblogdb;
 
 begin
   BrookApp.Run;

@@ -3,14 +3,12 @@
   <ProjectOptions>
     <Version Value="9"/>
     <General>
-      <Flags>
-        <MainUnitHasCreateFormStatements Value="False"/>
-      </Flags>
       <SessionStorage Value="InProjectDir"/>
       <MainUnit Value="0"/>
-      <Title Value="seanblogback"/>
-      <UseAppBundle Value="False"/>
+      <Title Value="seanblogtests"/>
       <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
     </General>
     <i18n>
       <EnableI18N LFM="False"/>
@@ -29,46 +27,28 @@
         <FormatVersion Value="1"/>
       </local>
     </RunParams>
-    <RequiredPackages Count="4">
+    <RequiredPackages Count="3">
       <Item1>
-        <PackageName Value="LCL"/>
+        <PackageName Value="FPCUnitTestRunner"/>
       </Item1>
       <Item2>
-        <PackageName Value="BrookRT"/>
+        <PackageName Value="LCL"/>
       </Item2>
       <Item3>
-        <PackageName Value="WebLaz"/>
-      </Item3>
-      <Item4>
         <PackageName Value="FCL"/>
-      </Item4>
+      </Item3>
     </RequiredPackages>
-    <Units Count="5">
+    <Units Count="2">
       <Unit0>
-        <Filename Value="seanblogback.lpr"/>
+        <Filename Value="seanblogtests.lpr"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="seanblogback"/>
+        <UnitName Value="seanblogtests"/>
       </Unit0>
       <Unit1>
-        <Filename Value="seanblogposts.pas"/>
+        <Filename Value="databases.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="seanblogposts"/>
+        <UnitName Value="databases"/>
       </Unit1>
-      <Unit2>
-        <Filename Value="brokers.pas"/>
-        <IsPartOfProject Value="True"/>
-        <UnitName Value="Brokers"/>
-      </Unit2>
-      <Unit3>
-        <Filename Value="seanblogcomments.pas"/>
-        <IsPartOfProject Value="True"/>
-        <UnitName Value="seanblogcomments"/>
-      </Unit3>
-      <Unit4>
-        <Filename Value="seanblogdb.pas"/>
-        <IsPartOfProject Value="True"/>
-        <UnitName Value="seanblogdb"/>
-      </Unit4>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
