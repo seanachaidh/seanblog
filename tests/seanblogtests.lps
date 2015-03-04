@@ -17,8 +17,8 @@
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="0"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="1" Y="1"/>
+        <TopLine Value="25"/>
+        <CursorPos X="1" Y="44"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit1>
@@ -26,7 +26,20 @@
     <General>
       <ActiveWindowIndexAtStart Value="0"/>
     </General>
-    <JumpHistory Count="0" HistoryIndex="-1"/>
+    <JumpHistory Count="3" HistoryIndex="2">
+      <Position1>
+        <Filename Value="databases.pas"/>
+        <Caret Line="17" Column="34" TopLine="12"/>
+      </Position1>
+      <Position2>
+        <Filename Value="databases.pas"/>
+        <Caret Line="20" Column="30" TopLine="13"/>
+      </Position2>
+      <Position3>
+        <Filename Value="databases.pas"/>
+        <Caret Line="28" Column="36" TopLine="12"/>
+      </Position3>
+    </JumpHistory>
   </ProjectSession>
   <EditorMacros Count="0"/>
 </CONFIG>
