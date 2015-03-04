@@ -13,6 +13,8 @@ type
 
   TDatabaseCase= class(TTestCase)
   protected
+    testdb: TSeanblogConnection;
+
     procedure SetUp; override;
     procedure TearDown; override;
   published
@@ -51,14 +53,13 @@ procedure TDatabaseCase.TestConnection;
 var
   testconnection: TSeanblogConnection;
 begin
-  testconnection:= TSeanblogConnection.Create;
-  testconnection.connect
   AssertTrue(testconnection.isConnected);
 end;
 
 procedure TDatabaseCase.SetUp;
 begin
-
+  testdb:= TSeanblogConnection.Create;
+  testdb.connect
 end;
 
 procedure TDatabaseCase.TearDown;
@@ -68,7 +69,7 @@ end;
 
 
 initialization
-
+  RegisterTest(TCommentsCase);
   RegisterTest(TDatabaseCase);
 end.
 
