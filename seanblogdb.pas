@@ -13,11 +13,14 @@ type
 
   TSeanblogConnection = class
     private
-      constructor Init;
       DBConnection: TMySQL55Connection;
+      constructor Init;
+      function getConnected: boolean;
     public
       name: String;
       class function Create: TSeanblogConnection;
+      procedure connect;
+      property isConnected: boolean read getConnected;
   end;
 
 implementation
@@ -38,6 +41,11 @@ begin
   DBConnection.Connected:= true;
 end;
 
+function TSeanblogConnection.getConnected: boolean;
+begin
+  Result:= DBConnection.Connected;
+end;
+
 class function TSeanblogConnection.Create: TSeanblogConnection;
 begin
   if Singleton = nil then
@@ -46,6 +54,12 @@ begin
   end;
 
   Result:= Singleton;
+end;
+
+procedure TSeanblogConnection.connect;
+begin
+  //mconnected:= true;
+  DBConnection.Connected:= true;
 end;
 
 

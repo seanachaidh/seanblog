@@ -35,8 +35,10 @@ implementation
 { TCommentsCase }
 
 procedure TCommentsCase.SetUp;
+var
+  testdb: TSeanblogConnection;
 begin
-  inherited SetUp;
+  inherited setup;
 end;
 
 procedure TCommentsCase.TearDown;
@@ -50,10 +52,8 @@ begin
 end;
 
 procedure TDatabaseCase.TestConnection;
-var
-  testconnection: TSeanblogConnection;
 begin
-  AssertTrue(testconnection.isConnected);
+  AssertTrue(testdb.isConnected);
 end;
 
 procedure TDatabaseCase.SetUp;
