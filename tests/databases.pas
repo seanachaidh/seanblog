@@ -28,6 +28,8 @@ type
     protected
       procedure SetUp; override;
       procedure TearDown; override;
+    published
+      procedure testquery;
   end;
 
 implementation
@@ -44,6 +46,11 @@ end;
 procedure TCommentsCase.TearDown;
 begin
   inherited TearDown;
+end;
+
+procedure TCommentsCase.testquery;
+begin
+  Fail('nog neit gemaakt');
 end;
 
 procedure TDatabaseCase.TestHookUp;
