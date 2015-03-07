@@ -40,7 +40,7 @@ procedure TCommentsCase.SetUp;
 var
   testdb: TSeanblogConnection;
 begin
-  inherited setup;
+
 end;
 
 procedure TCommentsCase.TearDown;
@@ -50,7 +50,7 @@ end;
 
 procedure TCommentsCase.testquery;
 begin
-  Fail('nog neit gemaakt');
+  Fail('nog niet gemaakt');
 end;
 
 procedure TDatabaseCase.TestHookUp;

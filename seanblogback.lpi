@@ -31,10 +31,10 @@
     </RunParams>
     <RequiredPackages Count="4">
       <Item1>
-        <PackageName Value="LCL"/>
+        <PackageName Value="BrookRT"/>
       </Item1>
       <Item2>
-        <PackageName Value="BrookRT"/>
+        <PackageName Value="LCL"/>
       </Item2>
       <Item3>
         <PackageName Value="WebLaz"/>

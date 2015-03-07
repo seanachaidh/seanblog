@@ -36,8 +36,8 @@ begin
   //TODO: Verkrijg deze waarden door middel van een configuratiebestand
   DBConnection.HostName:= 'localhost';
   DBConnection.UserName:= 'testuser';
-  DBConnection.Password:= 'test';
-  DBConnection.DatabaseName:= 'test';
+  DBConnection.Password:= '12345';
+  DBConnection.DatabaseName:= 'blogschema';
   DBConnection.Connected:= true;
 end;
 
