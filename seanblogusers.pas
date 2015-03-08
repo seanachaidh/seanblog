@@ -9,7 +9,16 @@ uses
 type
 
   TSeanblogUser = class
-
+    private
+      musername: string;
+      mpassword: string;
+      msurname: string;
+      mname: string;
+    public
+      property Username: string read musername write musername;
+      property Password: string read mpassword write mpassword;
+      property Surname: string read msurname write msurname;
+      property Name: string read mname write mname;
   end;
 
   { TSeanblogUsersAction }

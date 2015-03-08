@@ -70,9 +70,9 @@
         <UnitName Value="seanblogdb"/>
       </Unit4>
       <Unit5>
-        <Filename Value="seanclogprocs.pas"/>
+        <Filename Value="seanblogprocs.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="seanclogprocs"/>
+        <UnitName Value="seanblogprocs"/>
       </Unit5>
       <Unit6>
         <Filename Value="seanblogusers.pas"/>
