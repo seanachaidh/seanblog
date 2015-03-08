@@ -4,19 +4,22 @@ unit seanblogposts;
 
 interface
 
-uses BrookAction, classes;
+uses BrookAction, classes, fgl, seanblogcomments;
 
 type
+  TCommentsList = specialize TFPGList<TSeanblogComment>;
 
   { TSeanblogPost }
 
   TSeanblogPost = class
     private
       mTitle: string;
+      mAuthor: string;
       mText: string;
       //Bestaat er in pascal een datumtype
       mDate: longint;
       mTags: TStrings;
+
     public
       constructor Create(title, text: string; date: longint);
 
@@ -25,6 +28,7 @@ type
 
       //props
       property Title: string read mTitle write mTitle;
+      property Author: string read mAuthor write mAuthor;
       property Text: String read mText write mText;
       property Date: longint read mDate write mDate;
 

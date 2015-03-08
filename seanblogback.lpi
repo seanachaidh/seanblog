@@ -31,7 +31,7 @@
     </RunParams>
     <RequiredPackages Count="4">
       <Item1>
-        <PackageName Value="BrookRT"/>
+        <PackageName Value="BrookDT"/>
       </Item1>
       <Item2>
         <PackageName Value="LCL"/>
@@ -43,7 +43,7 @@
         <PackageName Value="FCL"/>
       </Item4>
     </RequiredPackages>
-    <Units Count="5">
+    <Units Count="6">
       <Unit0>
         <Filename Value="seanblogback.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -69,6 +69,11 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="seanblogdb"/>
       </Unit4>
+      <Unit5>
+        <Filename Value="seanclogprocs.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="seanclogprocs"/>
+      </Unit5>
     </Units>
   </ProjectOptions>
   <CompilerOptions>

@@ -7,8 +7,15 @@ interface
 uses
   Classes, SysUtils, BrookAction;
 type
-  SeanblogComment = class
-
+  TSeanblogComment = class
+     private
+       mAuthor: string;
+       mText: string;
+       mDate: longint;
+     public
+       property Author: string read mAuthor write mAuthor;
+       property Text: string read mText write mText;
+       property Date: longint read mDate write mDate;
   end;
 
   { SeanblogCommentAction }
