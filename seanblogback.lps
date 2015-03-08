@@ -3,12 +3,12 @@
   <ProjectSession>
     <Version Value="9"/>
     <BuildModes Active="Default"/>
-    <Units Count="15">
+    <Units Count="16">
       <Unit0>
         <Filename Value="seanblogback.lpr"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="seanblogback"/>
-        <EditorIndex Value="2"/>
+        <EditorIndex Value="3"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="49" Y="11"/>
@@ -39,11 +39,10 @@
         <Filename Value="seanblogcomments.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="seanblogcomments"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="11"/>
-        <CursorPos X="19" Y="10"/>
+        <TopLine Value="12"/>
+        <CursorPos X="73" Y="18"/>
         <UsageCount Value="57"/>
         <Loaded Value="True"/>
       </Unit3>
@@ -51,7 +50,7 @@
         <Filename Value="seanblogdb.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="seanblogdb"/>
-        <EditorIndex Value="4"/>
+        <EditorIndex Value="5"/>
         <WindowIndex Value="0"/>
         <TopLine Value="40"/>
         <CursorPos X="33" Y="45"/>
@@ -62,7 +61,7 @@
         <Filename Value="seanclogprocs.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="seanclogprocs"/>
-        <EditorIndex Value="3"/>
+        <EditorIndex Value="4"/>
         <WindowIndex Value="0"/>
         <TopLine Value="4"/>
         <CursorPos X="66" Y="13"/>
@@ -137,11 +136,23 @@
         <CursorPos X="1" Y="1"/>
         <UsageCount Value="10"/>
       </Unit14>
+      <Unit15>
+        <Filename Value="seanblogusers.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="seanblogusers"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="11"/>
+        <CursorPos X="29" Y="24"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit15>
     </Units>
     <General>
       <ActiveWindowIndexAtStart Value="0"/>
     </General>
-    <JumpHistory Count="11" HistoryIndex="10">
+    <JumpHistory Count="13" HistoryIndex="12">
       <Position1>
         <Filename Value="seanblogposts.pas"/>
         <Caret Line="13" Column="4" TopLine="2"/>
@@ -186,6 +197,14 @@
         <Filename Value="seanclogprocs.pas"/>
         <Caret Line="17" Column="16" TopLine="2"/>
       </Position11>
+      <Position12>
+        <Filename Value="seanblogusers.pas"/>
+        <Caret Line="10" Column="38" TopLine="1"/>
+      </Position12>
+      <Position13>
+        <Filename Value="seanblogusers.pas"/>
+        <Caret Line="15" Column="31" TopLine="1"/>
+      </Position13>
     </JumpHistory>
   </ProjectSession>
   <EditorMacros Count="0"/>

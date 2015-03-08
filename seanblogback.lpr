@@ -4,7 +4,7 @@ program seanblogback;
 
 uses
   BrookApplication, brookdt, seanblogposts, Brokers, seanblogcomments,
-  seanblogdb, seanclogprocs;
+  seanblogdb, seanclogprocs, seanblogusers;
 
 begin
   BrookApp.Run;

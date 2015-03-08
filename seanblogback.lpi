@@ -43,7 +43,7 @@
         <PackageName Value="FCL"/>
       </Item4>
     </RequiredPackages>
-    <Units Count="6">
+    <Units Count="7">
       <Unit0>
         <Filename Value="seanblogback.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -74,6 +74,11 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="seanclogprocs"/>
       </Unit5>
+      <Unit6>
+        <Filename Value="seanblogusers.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="seanblogusers"/>
+      </Unit6>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
