@@ -4,7 +4,7 @@ unit seanblogposts;
 
 interface
 
-uses BrookAction, classes, fgl, seanblogcomments;
+uses BrookAction, classes, fgl, seanblogcomments, seanblogusers;
 
 type
   TCommentsList = specialize TFPGList<TSeanblogComment>;
@@ -14,7 +14,7 @@ type
   TSeanblogPost = class
     private
       mTitle: string;
-      mAuthor: string;
+      mAuthor: TSeanblogUser;
       mText: string;
       //Bestaat er in pascal een datumtype
       mDate: longint;

@@ -5,7 +5,7 @@ unit seanblogusers;
 interface
 
 uses
-  Classes, SysUtils, BrookAction;
+  Classes, SysUtils, BrookAction, fgl;
 type
 
   TSeanblogUser = class
@@ -27,6 +27,8 @@ type
     public
       procedure Get; override;
   end;
+
+  TSeanblogUserList = specialize TFPGList<TSeanblogUser>;
 
 implementation
 

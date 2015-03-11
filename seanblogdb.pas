@@ -21,6 +21,8 @@ type
       class function Create: TSeanblogConnection;
       procedure connect;
       property isConnected: boolean read getConnected;
+      //TODO: Werkt dit wel?
+      property Connection: TSQLConnection read DBConnection;
   end;
 
 implementation
@@ -38,6 +40,8 @@ begin
   DBConnection.UserName:= 'testuser';
   DBConnection.Password:= '12345';
   DBConnection.DatabaseName:= 'blogschema';
+  DBConnection.Transaction= TSQLTransaction.Create(nil);
+  DBConnection.Transaction.DataBase:= DBConnection;
   DBConnection.Connected:= true;
 end;
 

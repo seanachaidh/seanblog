@@ -5,17 +5,19 @@ unit seanblogcomments;
 interface
 
 uses
-  Classes, SysUtils, BrookAction;
+  Classes, SysUtils, BrookAction, seanblogposts;
 type
   TSeanblogComment = class
      private
        mAuthor: string;
        mText: string;
        mDate: longint;
+       mPost: TSeanblogPost;
      public
        property Author: string read mAuthor write mAuthor;
        property Text: string read mText write mText;
        property Date: longint read mDate write mDate;
+       property Post: TSeanblogPost read mPost write mPost;
   end;
 
   { SeanblogCommentAction }

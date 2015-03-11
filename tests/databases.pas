@@ -32,7 +32,32 @@ type
       procedure testquery;
   end;
 
+  { TUsersCase }
+
+  TUsersCase = class(TTestCase)
+    protected
+      procedure SetUp; override;
+      procedure TearDown; override;
+    published
+      procedure TestInsert;
+  end;
+
 implementation
+
+{ TUsersCase }
+
+procedure TUsersCase.SetUp;
+begin
+end;
+
+procedure TUsersCase.TearDown;
+begin
+end;
+
+procedure TUsersCase.TestInsert;
+begin
+
+end;
 
 { TCommentsCase }
 
