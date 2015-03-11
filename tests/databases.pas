@@ -5,7 +5,7 @@ unit databases;
 interface
 
 uses
-  Classes, SysUtils, fpcunit, testutils, testregistry, seanblogdb;
+  Classes, SysUtils, fpcunit, testutils, testregistry, seanblogdb, seanblogprocs;
 
 type
 
