@@ -3,7 +3,7 @@
   <ProjectSession>
     <Version Value="9"/>
     <BuildModes Active="Default"/>
-    <Units Count="4">
+    <Units Count="8">
       <Unit0>
         <Filename Value="seanblogtests.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -16,37 +16,75 @@
         <UnitName Value="databases"/>
         <EditorIndex Value="0"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="60"/>
-        <CursorPos X="55" Y="74"/>
+        <TopLine Value="1"/>
+        <CursorPos X="61" Y="8"/>
         <UsageCount Value="36"/>
         <Loaded Value="True"/>
       </Unit1>
       <Unit2>
         <Filename Value="../seanblogdb.pas"/>
         <UnitName Value="seanblogdb"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="2"/>
+        <EditorIndex Value="1"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="13"/>
-        <CursorPos X="76" Y="25"/>
+        <TopLine Value="11"/>
+        <CursorPos X="40" Y="16"/>
         <UsageCount Value="19"/>
         <Loaded Value="True"/>
       </Unit2>
       <Unit3>
         <Filename Value="../seanblogusers.pas"/>
         <UnitName Value="seanblogusers"/>
-        <EditorIndex Value="1"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="33" Y="8"/>
         <UsageCount Value="10"/>
-        <Loaded Value="True"/>
       </Unit3>
+      <Unit4>
+        <Filename Value="../seanblogprocs.pas"/>
+        <UnitName Value="seanblogprocs"/>
+        <EditorIndex Value="5"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="16"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="/usr/lib/lazarus/components/fpcunit/guitestrunner.pas"/>
+        <UnitName Value="GuiTestRunner"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="126"/>
+        <CursorPos X="28" Y="135"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="../seanblogposts.pas"/>
+        <UnitName Value="seanblogposts"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="3"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="22"/>
+        <CursorPos X="37" Y="31"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="../seanblogcomments.pas"/>
+        <UnitName Value="seanblogcomments"/>
+        <EditorIndex Value="4"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="9"/>
+        <CursorPos X="54" Y="18"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit7>
     </Units>
     <General>
       <ActiveWindowIndexAtStart Value="0"/>
     </General>
-    <JumpHistory Count="23" HistoryIndex="22">
+    <JumpHistory Count="27" HistoryIndex="26">
       <Position1>
         <Filename Value="databases.pas"/>
         <Caret Line="17" Column="34" TopLine="12"/>
@@ -128,17 +166,33 @@
         <Caret Line="62" Column="27" TopLine="47"/>
       </Position20>
       <Position21>
-        <Filename Value="../seanblogusers.pas"/>
-        <Caret Line="9" Column="33" TopLine="1"/>
-      </Position21>
-      <Position22>
         <Filename Value="databases.pas"/>
         <Caret Line="72" Column="28" TopLine="56"/>
-      </Position22>
-      <Position23>
+      </Position21>
+      <Position22>
         <Filename Value="../seanblogdb.pas"/>
         <Caret Line="40" Column="42" TopLine="2"/>
+      </Position22>
+      <Position23>
+        <Filename Value="/usr/lib/lazarus/components/fpcunit/guitestrunner.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
       </Position23>
+      <Position24>
+        <Filename Value="../seanblogposts.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position24>
+      <Position25>
+        <Filename Value="../seanblogposts.pas"/>
+        <Caret Line="7" Column="49" TopLine="1"/>
+      </Position25>
+      <Position26>
+        <Filename Value="../seanblogcomments.pas"/>
+        <Caret Line="8" Column="33" TopLine="4"/>
+      </Position26>
+      <Position27>
+        <Filename Value="../seanblogposts.pas"/>
+        <Caret Line="7" Column="38" TopLine="4"/>
+      </Position27>
     </JumpHistory>
   </ProjectSession>
   <EditorMacros Count="0"/>

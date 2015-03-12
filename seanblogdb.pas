@@ -14,7 +14,6 @@ type
   TSeanblogConnection = class
     private
       DBConnection: TMySQL55Connection;
-      TSQLConnection: TSQLConnection;
       constructor Init;
       function getConnected: boolean;
       function getConnection: TSQLConnection;
@@ -78,4 +77,4 @@ end;
 
 
 end.
-
+

@@ -28,7 +28,7 @@ type
 
       //props
       property Title: string read mTitle write mTitle;
-      property Author: string read mAuthor write mAuthor;
+      property Author: TSeanblogUser read mAuthor write mAuthor;
       property Text: String read mText write mText;
       property Date: longint read mDate write mDate;
 
@@ -74,4 +74,4 @@ end;
 
 initialization
 TSeanblogPostAction.Register('/posts');
-end.
+end.
