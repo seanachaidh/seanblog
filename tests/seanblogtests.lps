@@ -3,7 +3,7 @@
   <ProjectSession>
     <Version Value="9"/>
     <BuildModes Active="Default"/>
-    <Units Count="3">
+    <Units Count="4">
       <Unit0>
         <Filename Value="seanblogtests.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -14,29 +14,39 @@
         <Filename Value="databases.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="databases"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="0"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="29"/>
-        <CursorPos X="3" Y="43"/>
+        <TopLine Value="60"/>
+        <CursorPos X="55" Y="74"/>
         <UsageCount Value="36"/>
         <Loaded Value="True"/>
       </Unit1>
       <Unit2>
         <Filename Value="../seanblogdb.pas"/>
         <UnitName Value="seanblogdb"/>
-        <EditorIndex Value="1"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="42" Y="40"/>
+        <TopLine Value="13"/>
+        <CursorPos X="76" Y="25"/>
         <UsageCount Value="19"/>
         <Loaded Value="True"/>
       </Unit2>
+      <Unit3>
+        <Filename Value="../seanblogusers.pas"/>
+        <UnitName Value="seanblogusers"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="33" Y="8"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit3>
     </Units>
     <General>
       <ActiveWindowIndexAtStart Value="0"/>
     </General>
-    <JumpHistory Count="19" HistoryIndex="18">
+    <JumpHistory Count="23" HistoryIndex="22">
       <Position1>
         <Filename Value="databases.pas"/>
         <Caret Line="17" Column="34" TopLine="12"/>
@@ -113,6 +123,22 @@
         <Filename Value="databases.pas"/>
         <Caret Line="32" Column="27" TopLine="10"/>
       </Position19>
+      <Position20>
+        <Filename Value="databases.pas"/>
+        <Caret Line="62" Column="27" TopLine="47"/>
+      </Position20>
+      <Position21>
+        <Filename Value="../seanblogusers.pas"/>
+        <Caret Line="9" Column="33" TopLine="1"/>
+      </Position21>
+      <Position22>
+        <Filename Value="databases.pas"/>
+        <Caret Line="72" Column="28" TopLine="56"/>
+      </Position22>
+      <Position23>
+        <Filename Value="../seanblogdb.pas"/>
+        <Caret Line="40" Column="42" TopLine="2"/>
+      </Position23>
     </JumpHistory>
   </ProjectSession>
   <EditorMacros Count="0"/>

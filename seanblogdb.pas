@@ -14,15 +14,17 @@ type
   TSeanblogConnection = class
     private
       DBConnection: TMySQL55Connection;
+      TSQLConnection: TSQLConnection;
       constructor Init;
       function getConnected: boolean;
+      function getConnection: TSQLConnection;
     public
       name: String;
       class function Create: TSeanblogConnection;
       procedure connect;
       property isConnected: boolean read getConnected;
       //TODO: Werkt dit wel?
-      property Connection: TSQLConnection read DBConnection;
+      property Connection: TSQLConnection read getConnection;
   end;
 
 implementation
@@ -40,7 +42,7 @@ begin
   DBConnection.UserName:= 'testuser';
   DBConnection.Password:= '12345';
   DBConnection.DatabaseName:= 'blogschema';
-  DBConnection.Transaction= TSQLTransaction.Create(nil);
+  DBConnection.Transaction:= TSQLTransaction.Create(nil);
   DBConnection.Transaction.DataBase:= DBConnection;
   DBConnection.Connected:= true;
 end;
@@ -48,6 +50,14 @@ end;
 function TSeanblogConnection.getConnected: boolean;
 begin
   Result:= DBConnection.Connected;
+end;
+
+function TSeanblogConnection.getConnection: TSQLConnection;
+var
+   retval: TSQLConnection;
+begin
+  retval:= TSQLConnection(DBConnection);
+  result:= retval;
 end;
 
 class function TSeanblogConnection.Create: TSeanblogConnection;

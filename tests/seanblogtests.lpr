@@ -3,7 +3,7 @@ program seanblogtests;
 {$mode objfpc}{$H+}
 
 uses
-  Interfaces, Forms, GuiTestRunner, databases;
+  Interfaces, Forms, brookdt, GuiTestRunner, databases;
 
 {$R *.res}
 

@@ -5,7 +5,8 @@ unit databases;
 interface
 
 uses
-  Classes, SysUtils, fpcunit, testutils, testregistry, seanblogdb, seanblogprocs;
+  Classes, SysUtils, fpcunit, testutils, testregistry, seanblogdb, seanblogprocs,
+  seanblogusers;
 
 type
 
@@ -55,8 +56,22 @@ begin
 end;
 
 procedure TUsersCase.TestInsert;
+var
+  testobj: TSeanblogUser;
+  tmplist: TSeanblogUserList;
 begin
+  testobj:= TSeanblogUser.Create;
+  testobj.Name:= 'Van Keymeulen';
+  testobj.Surname:= 'Pieter';
+  testobj.Username:= 'pieter';
+  testobj.Password:= '12345';
+  insertUser(testobj);
 
+  //get all users and test if user was saved
+  tmplist:= getAllUsers;
+  AssertEquals(1, tmplist.Count);
+
+  //hier moet ik de gemaakte gebruiker nog verwijderen
 end;
 
 { TCommentsCase }
