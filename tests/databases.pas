@@ -36,11 +36,13 @@ type
   { TUsersCase }
 
   TUsersCase = class(TTestCase)
+    private
+      testuser: TSeanblogUser;
     protected
       procedure SetUp; override;
       procedure TearDown; override;
     published
-      procedure TestInsert;
+      procedure TestQuery;
   end;
 
 implementation
@@ -49,29 +51,25 @@ implementation
 
 procedure TUsersCase.SetUp;
 begin
+  testuser:= TSeanblogUser.Create;
+  testuser.Name:= 'Van Keymeulen';
+  testuser.Username:= 'pieter';
+  testuser.Surname:= 'Pieter';
+  testuser.Password:= '12345';
+
+  insertUser(testuser);
 end;
 
 procedure TUsersCase.TearDown;
 begin
 end;
 
-procedure TUsersCase.TestInsert;
+procedure TUsersCase.TestQuery;
 var
-  testobj: TSeanblogUser;
   tmplist: TSeanblogUserList;
 begin
-  testobj:= TSeanblogUser.Create;
-  testobj.Name:= 'Van Keymeulen';
-  testobj.Surname:= 'Pieter';
-  testobj.Username:= 'pieter';
-  testobj.Password:= '12345';
-  insertUser(testobj);
-
-  //get all users and test if user was saved
   tmplist:= getAllUsers;
-  AssertEquals(1, tmplist.Count);
-
-  //hier moet ik de gemaakte gebruiker nog verwijderen
+  Assert((tmplist.IndexOf(testuser) > 0));
 end;
 
 { TCommentsCase }
@@ -118,5 +116,6 @@ end;
 initialization
   RegisterTest(TCommentsCase);
   RegisterTest(TDatabaseCase);
+  RegisterTest(TUsersCase);
 end.
 

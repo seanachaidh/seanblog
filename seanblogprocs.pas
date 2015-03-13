@@ -19,6 +19,7 @@ uses
 function getAllUsers: TSeanblogUserList;
 function insertUser(item: TSeanblogUser): boolean;
 function getAllUserByUsername(username: string): TSeanblogUserList;
+procedure deleteUser(item: TSeanblogUser);
 
 implementation
 var
@@ -68,11 +69,13 @@ begin
 
   query.ExecSQL;
   curdb.Connection.Transaction.Commit;
+
+  result:= true;
 end;
 
 function getAllUserByUsername(username: string): TSeanblogUserList;
 begin
-
+  result:= nil;
 end;
 
 initialization
