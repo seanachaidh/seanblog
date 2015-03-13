@@ -26,8 +26,8 @@
         <UnitName Value="seanblogdb"/>
         <EditorIndex Value="1"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="11"/>
-        <CursorPos X="40" Y="16"/>
+        <TopLine Value="37"/>
+        <CursorPos X="1" Y="46"/>
         <UsageCount Value="19"/>
         <Loaded Value="True"/>
       </Unit2>
@@ -44,7 +44,7 @@
         <UnitName Value="seanblogprocs"/>
         <EditorIndex Value="5"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="16"/>
+        <TopLine Value="1"/>
         <CursorPos X="1" Y="1"/>
         <UsageCount Value="10"/>
         <Loaded Value="True"/>
@@ -52,6 +52,7 @@
       <Unit5>
         <Filename Value="/usr/lib/lazarus/components/fpcunit/guitestrunner.pas"/>
         <UnitName Value="GuiTestRunner"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
         <WindowIndex Value="0"/>
         <TopLine Value="126"/>
@@ -62,7 +63,6 @@
       <Unit6>
         <Filename Value="../seanblogposts.pas"/>
         <UnitName Value="seanblogposts"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="3"/>
         <WindowIndex Value="0"/>
         <TopLine Value="22"/>
@@ -84,7 +84,7 @@
     <General>
       <ActiveWindowIndexAtStart Value="0"/>
     </General>
-    <JumpHistory Count="27" HistoryIndex="26">
+    <JumpHistory Count="28" HistoryIndex="27">
       <Position1>
         <Filename Value="databases.pas"/>
         <Caret Line="17" Column="34" TopLine="12"/>
@@ -193,6 +193,10 @@
         <Filename Value="../seanblogposts.pas"/>
         <Caret Line="7" Column="38" TopLine="4"/>
       </Position27>
+      <Position28>
+        <Filename Value="../seanblogprocs.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position28>
     </JumpHistory>
   </ProjectSession>
   <EditorMacros Count="0"/>

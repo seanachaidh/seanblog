@@ -43,7 +43,7 @@
         <PackageName Value="FCL"/>
       </Item4>
     </RequiredPackages>
-    <Units Count="7">
+    <Units Count="8">
       <Unit0>
         <Filename Value="seanblogback.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -79,6 +79,11 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="seanblogusers"/>
       </Unit6>
+      <Unit7>
+        <Filename Value="seanblogutilities.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="seanblogutilities"/>
+      </Unit7>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
@@ -106,4 +111,4 @@
       </Item3>
     </Exceptions>
   </Debugging>
-</CONFIG>
+</CONFIG>
